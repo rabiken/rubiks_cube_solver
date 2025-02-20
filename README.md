@@ -1,6 +1,21 @@
-# Project Title
+# Rubiks Cube Solver
+This project is for proving the author's understanding in A* Algorithm and skills to apply the algorithms in non-trivial problems.
+2 main tasks were completed.
+[1] Generating the problem and its solution.
+    At first, rubik's cube with the correctly placed faces are shuffled. The number of shuffles can be adjasted.
+    The solver will try to place back all the faces as they were.
+    As a result, it turned out that the solver is prone to stack at correcting the last 2 pieces.
 
-A brief description of what this project does and who it's for.
+You can watch a video demonstration of the solver in action below:
+
+![Rubik's Cube Solver Demo](./videos/rk_solve.gif)
+
+[2] Visualize the correctness of the solution.
+It graphically shows the rubik's cube. The users can test the correctness of the calculated solution.
+
+You can watch a video demonstration of the visualizer in action below:
+
+![Rubik's Cube Visualizer Demo](./videos/rk_visualize.gif)
 
 ## Table of Contents
 
